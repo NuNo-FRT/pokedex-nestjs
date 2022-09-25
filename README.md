@@ -16,7 +16,9 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-4. Recargar base de datos por un seed
+5. Clonar el archivo __.example.env__ y renombrar la copa a __.env__
+6. LLenar las variables de entonrno definidas en el __.env__
+7. Recargar base de datos por un seed
 ```
 http://localhost:3000/api/v2/seed
 ```
