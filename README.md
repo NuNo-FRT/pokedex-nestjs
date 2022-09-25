@@ -16,7 +16,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-
+4. Recargar base de datos por un seed
+```
+http://localhost:3000/api/v2/seed
+```
 ## Stack usado
 * MongoDB
 * Nest
